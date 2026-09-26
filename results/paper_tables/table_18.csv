@@ -1,0 +1,4 @@
+Model,RSS,Coefficients,Boundaries,IC,LOTO RMSE,IC-based candidate model set
+Constant-Level Model(R0),289.935,9,0,128.050,1.30049,—
+Linear-Trend Model(R1),199.140,18,0,104.229,1.14917,Included
+Piecewise-Constant Model(R2),194.682,18,1,106.038,1.16694,Included

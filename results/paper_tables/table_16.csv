@@ -1,0 +1,7 @@
+Technique pair,Years with Positive Excess > 10⁻¹²,Cumulative Positive Excess,Peak year (value),CTI/security interpretation
+T1056.001 Keylogging – T1113 Screen Capture,12,0.1162,2008(0.0207),Co-reporting of input capture and screen capture
+T1012 Query Registry – T1057 Process Discovery,14,0.1107,2020(0.0304),Environment discovery using the registry and running processes
+T1012 Query Registry – T1027 Obfuscated Files or Information,14,0.0940,2020(0.0181),Co-reporting of environment discovery and obfuscated artifacts
+T1057 Process Discovery – T1083 File and Directory Discovery,12,0.0871,2023(0.0282),Co-reporting of process and file-system discovery
+T1082 System Information Discovery – T1083 File and Directory Discovery,11,0.0806,2023(0.0239),Co-reporting of host specifications and file-system discovery
+T1003 OS Credential Dumping – T1053 Scheduled Task/Job,15,0.0800,2022(0.0268),Co-reporting of credential access and scheduled execution/persistence

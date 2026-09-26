@@ -1,0 +1,6 @@
+Measure,"All core documents (N=1,474)",Pair-generating documents (N=588),Interpretation
+Gini,0.9686,0.9213,High concentration in both sets
+Median,0,3,Many documents generate no Technique pairs
+Top 1%,15 documents / 67.68%,6 documents / 46.87%,Large combinatorial contribution from very few reports
+Top 5%,74 documents / 92.72%,30 documents / 80.24%,Basis for TRR sensitivity scenarios
+Top 10%,148 documents / 97.47%,59 documents / 89.85%,Concentration persists through the top 10%

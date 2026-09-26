@@ -1,0 +1,68 @@
+{
+  "descriptor_id": "COMPOSITION_ADJUSTED_EVOLUTION_DESCRIPTOR_V1",
+  "rows": 21,
+  "dimensions": 9,
+  "dimension_names": [
+    "component_share_birth",
+    "component_share_death",
+    "component_share_increase",
+    "support_share_low",
+    "support_share_medium",
+    "rms_low",
+    "rms_medium",
+    "rms_high",
+    "persistent_relation_rms"
+  ],
+  "delta": "D1=(R_t-R_tminus1)/(R_t+R_tminus1+1e-12)",
+  "support_context": "FROZEN_OBSERVED_BINARY_DOCUMENT_SUPPORT_LOW_1_2_MEDIUM_3_5_HIGH_GT5",
+  "scaling": {
+    "component_share_birth": {
+      "median": 0.36373702422145326,
+      "mad": 0.18805715316514116,
+      "scale": 0.27881353528263825
+    },
+    "component_share_death": {
+      "median": 0.24915368991198375,
+      "mad": 0.12427266954267098,
+      "scale": 0.184246659863964
+    },
+    "component_share_increase": {
+      "median": 0.11581553698545342,
+      "mad": 0.07996213051435079,
+      "scale": 0.11855185470057647
+    },
+    "support_share_low": {
+      "median": 0.9117429837518464,
+      "mad": 0.06047923847037584,
+      "scale": 0.08966651895617922
+    },
+    "support_share_medium": {
+      "median": 0.08733382570162482,
+      "mad": 0.0511019416436538,
+      "scale": 0.07576373868088113
+    },
+    "rms_low": {
+      "median": 0.8188377354294172,
+      "mad": 0.08849816628930629,
+      "scale": 0.1312073813405255
+    },
+    "rms_medium": {
+      "median": 0.838024802862751,
+      "mad": 0.09876134171108164,
+      "scale": 0.14642356522084962
+    },
+    "rms_high": {
+      "median": 0.7272920436087976,
+      "mad": 0.08637062094605896,
+      "scale": 0.128053082614627
+    },
+    "persistent_relation_rms": {
+      "median": 0.7204035844558162,
+      "mad": 0.1181963982266021,
+      "scale": 0.17523798001076027
+    }
+  },
+  "pca": false,
+  "embedding": false,
+  "tgnn": false
+}

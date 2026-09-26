@@ -1,0 +1,10 @@
+descriptor,slope,direction,structural_interpretation,causal_claim,execution_claim
+component_share_birth,-0.8919309141857882,DECREASING,Composition-adjusted component_share_birth decreased over normalized annual transition time.,False,False
+component_share_death,-0.1676251246993886,DECREASING,Composition-adjusted component_share_death decreased over normalized annual transition time.,False,False
+component_share_increase,1.5979967724581736,INCREASING,Composition-adjusted component_share_increase increased over normalized annual transition time.,False,False
+support_share_low,-0.927675066273576,DECREASING,Composition-adjusted support_share_low decreased over normalized annual transition time.,False,False
+support_share_medium,0.879774164488071,INCREASING,Composition-adjusted support_share_medium increased over normalized annual transition time.,False,False
+rms_low,-0.6097998940249647,DECREASING,Composition-adjusted rms_low decreased over normalized annual transition time.,False,False
+rms_medium,-0.42602586779031,DECREASING,Composition-adjusted rms_medium decreased over normalized annual transition time.,False,False
+rms_high,2.4669422114565327,INCREASING,Composition-adjusted rms_high increased over normalized annual transition time.,False,False
+persistent_relation_rms,-0.3748543019211868,DECREASING,Composition-adjusted persistent_relation_rms decreased over normalized annual transition time.,False,False

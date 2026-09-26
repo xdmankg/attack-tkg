@@ -1,0 +1,6 @@
+Multiplier setting,Time | Analytical Coverage; raw p,Time|Analytical CoverageHolm p,Analytical Coverage | Time; raw p,Analytical Coverage|TimeHolm p
+Independent Rademacher,0.134487,0.134487,0.000200,0.000400
+Independent Gaussian,0.206379,0.206379,0.012099,0.024198
+DWB length 2,0.242376,0.242376,0.024998,0.049995
+DWB length 3 (primary),0.248875,0.248875,0.049195,0.098390
+DWB length 4,0.251675,0.251675,0.064794,0.129587

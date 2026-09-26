@@ -1,0 +1,8 @@
+Research direction,Input / relation unit,Output / evaluation focus,Temporal treatment,Reporting / observation assessment
+"CTI-to-ATT&CK extraction [3–7,14–20]",Unstructured reports / sentences,Technique labels / attack graphs; extraction accuracy,None or document time,Not a primary focus
+"Technique relations / temporal patterns [21,22]",Group- or malware-level Technique sets; explicit temporal relations in CTI sentences,Association rules / recurring temporal patterns,Whole-period aggregation or sentence-level temporal relations,Data composition treated as given
+Bipartite projection / null models [23–26],Bipartite incidence matrix,Projection backbone / reference distribution,Not a primary focus,Document and Technique degrees preserved
+"Temporal knowledge graphs [8,11,27–29]",Time-stamped triples,Missing-relation inference / prediction performance,Given times / intervals,Graph formation conditions treated as given
+"Dynamic KGs / spatial–temporal GNNs [9,10]",Time series / provenance graphs,Community / anomaly detection,Snapshots / spatial–temporal dependencies,Collected execution histories and provenance used as inputs
+"CTI generation / reporting conditions [12,13,30–35]",Attack cases / public reports / metadata,"Selection, delay, and source-bias estimation","Discovery, disclosure, and reporting times","Empirical assessment of discovery, source, and media selection"
+This study,Event-time canonical document–Technique relations,Scope of longitudinal conclusions about Technique pairs,Event time supported by report text,Sensitivity across five condition axes

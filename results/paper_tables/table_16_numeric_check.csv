@@ -1,0 +1,7 @@
+technique_i,technique_j,reported_positive_years,strict_positive_years,years_above_1e_minus12,small_positive_years,small_positive_values,reported_cumulative_positive_excess,computed_cumulative_positive_excess,peak_year,peak_value,count_status
+T1056.001,T1113,12,12,12,,,0.1162,0.11623970134325431,2008,0.020742259186914067,matches_reporting_rule_and_strict
+T1012,T1057,14,15,14,A2_W0::2022,3.4694469519536142e-18,0.1107,0.11066750242754231,2020,0.03035595431792598,matches_reporting_rule_only
+T1012,T1027,14,15,14,A2_W0::2011,3.903127820947816e-18,0.094,0.09403044383407136,2020,0.018103880496996717,matches_reporting_rule_only
+T1057,T1083,12,12,12,,,0.0871,0.0870602177395011,2023,0.028220749713018828,matches_reporting_rule_and_strict
+T1082,T1083,11,12,11,A2_W0::2011,3.903127820947816e-18,0.0806,0.08057159445987996,2023,0.023932391244111798,matches_reporting_rule_only
+T1003,T1053,15,16,15,A2_W0::2009,1.6913553890773869e-17,0.08,0.08000161606154685,2022,0.02680609715050037,matches_reporting_rule_only

@@ -1,0 +1,7 @@
+Condition,Quantity measured,Issue assessed in longitudinal interpretation
+Analytical Coverage,Proportion of total weighted document mass eligible for CP-null comparison,Scope of documentary evidence eligible for CP-null comparison
+Number of Techniques observed in the year,Annual |Vt|,Annual observation scope of ATT&CK Techniques
+Observed fraction of all comparison-eligible Technique pairs,|Et| / |U|,Observed relations within the full-period Technique-pair inventory
+Density among the year's Techniques,Fraction of relations among observed Techniques,Density of relations among Techniques observed that year
+Number of Techniques shared by two years,Intersection of the two annual Technique sets |Vt−1 ∩ Vt|,Scope for direct comparison of identical Technique identifiers
+Collection composition,Composition of APTnotes and Campaign/CyberCriminal documents,Differences associated with the composition of collections

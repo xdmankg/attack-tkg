@@ -1,0 +1,6 @@
+Element,Treatment,Analytical purpose
+Document Technique degree,Preserved,Maintain TRR size and the scope described in each document
+Technique marginal degree,Preserved,Maintain annual Technique recording frequency
+Document–year weight stratum,Preserved,Maintain event-time weighting
+Document–Technique connection partners,Reassigned within constraints,Calculate co-reporting strength expected from document composition alone
+Technique-pair relations,Recalculated from randomized incidence matrices,Calculate the null expectation for comparison with observed co-reporting strength

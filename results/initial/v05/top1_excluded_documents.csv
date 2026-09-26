@@ -1,0 +1,16 @@
+canonical_document_id,n_techniques,pair_potential,rank,percentile_rank,collection_channel,windows_assigned,primary_mass_sum,multi_event_document,first_core_year,last_core_year,source_filename,windows_assigned_rank,HIGH_TECHNIQUE_COUNT,MULTI_YEAR_HIGH_SPREAD,influence_flag
+CANON-9876eba64c73548d,128,8128,1,1.0,APT_CyberCriminal_Campagin_Collections,7,0.9999999999999998,True,2011,2020,Report2020CrowdStrikeGlobalThreatReport.pdf,69,True,False,HIGH_TECHNIQUE_COUNT
+CANON-59f1b14a3ff9354f,114,6441,2,0.9993215739484396,APTnotes,5,1.0,True,2019,2023,2023-11-09_Modern Asia APT groups TTPs.pdf,153,True,False,HIGH_TECHNIQUE_COUNT
+CANON-8d8edb6360b2f71d,104,5356,3,0.9986431478968792,APT_CyberCriminal_Campagin_Collections,1,1.0,False,2014,2014,201912_Report_Operation_Wacao.pdf,1282,True,False,HIGH_TECHNIQUE_COUNT
+CANON-e03ebe7af3504078,97,4656,4,0.9979647218453188,APT_CyberCriminal_Campagin_Collections,4,0.9545454545454544,True,2015,2018,Report2019GlobalThreatReport.pdf,347,True,False,HIGH_TECHNIQUE_COUNT
+CANON-63760f44e57b922d,86,3655,5,0.9972862957937584,APT_CyberCriminal_Campagin_Collections,3,0.9000000000000001,True,2017,2021,Report2021ThreatHunting.pdf,449,True,False,HIGH_TECHNIQUE_COUNT
+CANON-e789adf7a312471f,76,2850,6,0.996607869742198,APT_CyberCriminal_Campagin_Collections,9,0.8076923076923073,True,2012,2021,mtrends-2021.pdf,31,True,False,HIGH_TECHNIQUE_COUNT
+CANON-f2455bdcf1836afc,74,2701,7,0.9959294436906376,APT_CyberCriminal_Campagin_Collections,7,1.0,True,2005,2019,cta-2019-0206.pdf,77,True,False,HIGH_TECHNIQUE_COUNT
+CANON-79ad72125da2c956,65,2080,8,0.9952510176390772,APT_CyberCriminal_Campagin_Collections,4,0.9999999999999998,True,2014,2020,UNC215_ Spotlight on a Chinese Espionage Campaign in Israel _ FireEye Inc.pdf,285,True,False,HIGH_TECHNIQUE_COUNT
+CANON-fef3609f41e7904d,60,1770,9,0.994572591587517,APTnotes,1,1.0,False,2018,2018,2022-02-24_Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks.pdf,1472,True,False,HIGH_TECHNIQUE_COUNT
+CANON-9217efdaa1a7cdfd,59,1711,10,0.9938941655359566,APT_CyberCriminal_Campagin_Collections,9,0.9166666666666664,True,2009,2018,report_APT41.pdf,29,True,False,HIGH_TECHNIQUE_COUNT
+CANON-d1c29f20fc6ec4f6,59,1711,11,0.9932157394843962,APTnotes,9,0.9166666666666664,True,2009,2018,2019-08-07_APT41_ A Dual Espionage and Cyber Crime Operation_2.pdf,30,True,False,HIGH_TECHNIQUE_COUNT
+CANON-e2ed4ac613f3b23f,46,1035,12,0.9925373134328358,APT_CyberCriminal_Campagin_Collections,5,0.8571428571428569,True,2011,2020,ESET_InvisiMole.pdf,212,True,False,HIGH_TECHNIQUE_COUNT
+CANON-946c60075e010a92,45,990,13,0.9918588873812756,APT_CyberCriminal_Campagin_Collections,7,0.9166666666666664,True,2008,2020,mtrends-2020.pdf,68,True,False,HIGH_TECHNIQUE_COUNT
+CANON-9d72c0a34b837157,43,903,14,0.991180461329715,APT_CyberCriminal_Campagin_Collections,3,0.75,True,2017,2019,research.nccgroup.com-Abusing cloud services to fly under the radar.pdf,507,True,False,HIGH_TECHNIQUE_COUNT
+CANON-b6aa6412294cdf30,43,903,15,0.9905020352781548,APT_CyberCriminal_Campagin_Collections,4,1.0,True,2017,2021,technical-brief-delving-deep-an-analysis-of-earth-lusca-operations.pdf,321,True,False,HIGH_TECHNIQUE_COUNT

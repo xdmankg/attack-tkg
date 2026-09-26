@@ -1,0 +1,10 @@
+Component,Value or minimum / median / maximum,Meaning
+Core analysis period,2002–2023,22 annual states; 21 transitions
+canonical document,"1,474",Core dataset
+Distinct Technique / Sub-technique IDs over the period,449,Distinct IDs in the final S0 co-reporting scope
+Document–year weights,"4,060",Event-time document–year assignments
+Compared Technique pairs |U|,"28,195",Distinct pairs observed at least once in the core data
+Techniques present in a year |Vt|,25 / 210 / 390,Annual Technique observation scope
+Observed relations |Et|,"59 / 7,520.5 / 24,099",Annual nonzero Technique co-reporting relations
+Global occupancy,0.21% / 26.67% / 85.47%,Observed proportion of the full-period pair list
+Active-Technique density,16.72% / 32.62% / 57.86%,Relation density among Techniques present in that year

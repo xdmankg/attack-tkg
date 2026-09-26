@@ -1,0 +1,155 @@
+{
+  "verification.json": [
+    {
+      "check": "document links",
+      "status": "pass",
+      "detail": "1,856 canonical documents; 2,192 raw-to-canonical mappings; 1,474 core documents; 4,060 core document-years."
+    },
+    {
+      "check": "document-year weights",
+      "status": "pass",
+      "detail": "Values retain the frozen normalization; no reweighting after clipping to 2002-2023."
+    },
+    {
+      "check": "pair potential",
+      "status": "pass",
+      "detail": "Full ranks reproduce all six Table 14 percentages."
+    },
+    {
+      "check": "annual observed graphs",
+      "status": "pass",
+      "detail": "22 years × 28,195 relations reconstructed from public mappings and weights."
+    },
+    {
+      "check": "follow-up graphs and descriptors",
+      "status": "pass",
+      "detail": "45 B0 datasets; candidate sets recalculated from IC; overlap counts 0/5, 0/5, 5/5."
+    },
+    {
+      "check": "initial wild bootstrap",
+      "status": "pass",
+      "detail": "10,000 saved replay statistics; raw plus-one p = 1399/10001."
+    },
+    {
+      "check": "pseudo-temporal tests",
+      "status": "pass",
+      "detail": "Separate E02 and E03 arrays; lower-tail counts 1/200 and 0/200."
+    },
+    {
+      "check": "fixed relation universe",
+      "status": "pass",
+      "detail": "28,195 indexed undirected Technique pairs."
+    },
+    {
+      "check": "Table 16 reporting rule",
+      "status": "pass",
+      "detail": "All six counts match Positive Excess > 1e-12; 132 pair-year values checked. Four strict-zero counts differ; historical generator remains unlocated."
+    },
+    {
+      "check": "collection references",
+      "status": "pass",
+      "detail": "2,192 records link to two upstream collection URLs; historical retrieval metadata remains unavailable."
+    }
+  ],
+  "cp_null/S0_FULL_R0_L0_STAGE15_MATCHED_2002/verification.json": {
+    "year": 2002,
+    "scenario": "S0_FULL",
+    "replicate": 0,
+    "level": "L0_STAGE15_MATCHED",
+    "samples": 200,
+    "maximum_mu_difference": 7.494005416219807e-16,
+    "constraints": [
+      {
+        "slot": 0,
+        "chain": 0,
+        "seed_uint64": "18370000643453390313",
+        "row_and_column_degrees": "pass"
+      },
+      {
+        "slot": 0,
+        "chain": 1,
+        "seed_uint64": "13181470779098851227",
+        "row_and_column_degrees": "pass"
+      }
+    ],
+    "status": "pass"
+  },
+  "loto/BASELINE_STAGE15_S0/verification.json": {
+    "dataset": "BASELINE_STAGE15_S0",
+    "loss_comparisons": 567,
+    "bootstrap_intervals": 40,
+    "status": "pass"
+  },
+  "models/BASELINE_STAGE15_S0/verification.json": {
+    "datasets": 49,
+    "followup_IC_comparisons": 135,
+    "status": "pass"
+  },
+  "initial-bootstrap/BASELINE_STAGE15_S0/verification.json": {
+    "B": 10000,
+    "seed": 2026081505,
+    "array_equal_in_this_environment": true,
+    "max_absolute_difference": 0.0,
+    "observed": 15.547926633440483,
+    "upper_tail_count": 1398,
+    "plus_one_p": 0.13988601139886012,
+    "q95_linear": 17.984492446201724,
+    "status": "pass"
+  },
+  "followup-bootstrap/BASELINE_STAGE15_S0/verification.json": {
+    "dataset": "BASELINE_STAGE15_S0",
+    "comparisons": 10,
+    "status": "pass"
+  },
+  "limitations": [
+    "Table 16: all six counts match the adopted > 1e-12 reporting rule; four strict-zero counts differ. The historical generator has not been located. See numerical_notes.md.",
+    "Collection URLs are verified; original document URLs and historical retrieval/revision metadata remain unavailable.",
+    "Only the stated subset of stochastic analyses was rerun during packaging.",
+    "Matching final vector sources for Figures 1, 2, 4 and 11 were not located."
+  ],
+  "table_16/verification.json": {
+    "status": "adopted_reporting_rule_verified",
+    "pairs": 6,
+    "annual_values": 132,
+    "strict_count_mismatches": 4,
+    "comparison_tolerance": 1e-12,
+    "adopted_reporting_rule": "Positive Excess > 1e-12",
+    "reporting_tolerance_is_significance_criterion": false,
+    "all_counts_match_at_comparison_tolerance": true,
+    "cumulative_and_peak_values_match_at_display_precision": true,
+    "top_six_order_unchanged_between_comparisons": true,
+    "historical_table_generation_rule": "not_established",
+    "archived_arrays_modified": false,
+    "tolerance_applied_to_graph_or_descriptor_algorithms": false,
+    "input_file": "results/initial/e02/annual_rcd1_residual_long.parquet"
+  },
+  "revision_check_date": "2026-09-27",
+  "package_validation": {
+    "date": "2026-09-27",
+    "timezone": "Asia/Seoul",
+    "commands_completed": [
+      "python scripts/verify.py",
+      "python scripts/check_table16.py",
+      "python scripts/replay_analysis.py models",
+      "python scripts/replay_analysis.py initial-bootstrap",
+      "python scripts/replay_analysis.py followup-bootstrap",
+      "python scripts/replay_analysis.py loto",
+      "python scripts/replay_null.py --year 2002",
+      "python scripts/reproduce.py"
+    ],
+    "numerical_figures_regenerated": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "all_27_table_data_rows_unchanged": true,
+    "archived_numerical_arrays_and_original_kernels_unchanged": true,
+    "checksum_verification": "Run after all release files are finalized; checksums.sha256 includes this report.",
+    "git_checkout_verification": "LF release text with text=auto eol=lf; checked with core.autocrlf=true in an isolated checkout.",
+    "scope": "Retained numerical inputs and stated replay commands; not a rerun of the complete high-intensity experiment."
+  }
+}

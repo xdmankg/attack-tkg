@@ -1,0 +1,10 @@
+Sensitivity axis,Condition,Documents,Technique information,IC-based candidate model set,Earlier T12 and pMC,Initial independent-multiplier test
+TRR,Full-Corpus Scenario(S0),"1,474",449 unique,"{R1,R2}",T12=−1.809,p=0.1399; criterion not met
+TRR,Top-1% TRR-Excluded Scenario(S1),"1,459",383 unique,{R1},T12=−19.943,p=0.0423; criterion met
+TRR,Top-5% TRR-Excluded Scenario(S2),"1,400",260 unique,{R0},T12=+14.572*,p=0.0223; criterion met
+Collection,APTnotes / Full-Corpus Scenario(S0),406,Inclusion rate 61.25%,{R0},T12=−3.600*; pMC=0.6517,p=0.0193; criterion met
+Collection,APTnotes / Top-1% TRR-Excluded Scenario(S1),403,Inclusion rate 45.66%,{R0},T12=+3.135*; pMC=0.3632,Criterion not met
+Collection,APTnotes / Top-5% TRR-Excluded Scenario(S2),395,Inclusion rate 34.30%,{R0},T12=+6.713*; pMC=0.6567,Criterion not met
+Collection,Campaign / Full-Corpus Scenario(S0),"1,068",Inclusion rate 93.76%,{R2},T12=+8.108; pMC=0.009950,p=0.0013; criterion met
+Collection,Campaign / Top-1% TRR-Excluded Scenario(S1),"1,056",Inclusion rate 79.29%,{R2},T12=+6.822; pMC=0.3035,Criterion not met
+Collection,Campaign / Top-5% TRR-Excluded Scenario(S2),"1,005",Inclusion rate 51.89%,{R0},T12=+1.611*; pMC=0.0199,Criterion met

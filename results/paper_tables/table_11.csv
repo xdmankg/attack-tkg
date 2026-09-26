@@ -1,0 +1,4 @@
+Model,Form,Key constraint,Interpretive scope
+Constant-Level Model(R0),Constant state across the full period,Single state vector,Reference for assessing whether observed annual changes require a longitudinal direction
+Linear-Trend Model(R1),One linear rate of change across the full period,Single slope vector,Longitudinal change without a boundary
+Piecewise-Constant Model(R2),Constant state within each contiguous segment,K=2 or 3; at least five transitions per segment,Differences in segment-level states

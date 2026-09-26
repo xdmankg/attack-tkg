@@ -1,0 +1,8 @@
+Stage,Documents,Change,Role in analysis
+Raw CTI PDFs,"2,269",–,Initial collection
+Documents reconstructed within scope,"2,192",77 excluded,Text reconstruction and source locations
+canonical documents,"1,856",336 merged,Removal of duplicate copies
+Documents with analyzable text,"1,810",46 excluded,ATT&CK and temporal-evidence analysis
+Canonical documents with event time,"1,484",326 excluded,Explicit event-time normalization
+Primary temporal assignment,"1,482",2 excluded,Calendar-year weight calculation
+Final core analytical documents,"1,474",8 excluded,Common data for annual graphs and sensitivity analysis

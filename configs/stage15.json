@@ -1,0 +1,42 @@
+{
+  "experiment_id": "15E03",
+  "execution_id": "15E03-01",
+  "scope": "STAGE15_FINAL_VALIDATION_AND_FREEZE",
+  "selected_method": "RCD1_MICROCANONICAL_POSITIVE_EXCESS",
+  "selected_null": "N1_STRATIFIED_MICROCANONICAL",
+  "residual_formula": "max(0,W_obs-mu_null)",
+  "construction_seed": 20260815,
+  "monte_carlo_sensitivity_seed": 2026081503,
+  "e03_temporal_validation_seed": 2026081504,
+  "coverage_wild_bootstrap_seed": 2026081505,
+  "loto_bootstrap_seed": 2026081503,
+  "construction_draws": 400,
+  "sensitivity_draws": 200,
+  "temporal_validation_draws": 200,
+  "pseudo_sequences": 200,
+  "wild_bootstrap_replicates": 10000,
+  "wild_distribution": "RADEMACHER_SHARED_TRANSITION_WEIGHT_ACROSS_9_DIMENSIONS",
+  "float_tolerance": 1e-10,
+  "mixing_thresholds": {
+    "chain_mean_cosine_min": 0.98,
+    "first_second_mean_cosine_min": 0.98,
+    "normalized_mean_rmse_max": 0.25,
+    "variance_relative_difference_max": 0.5
+  },
+  "mc_stability_thresholds": {
+    "median_annual_residual_cosine_min": 0.95,
+    "windows_cosine_ge_090_min": 20,
+    "descriptor_trajectory_cosine_min": 0.95
+  },
+  "T12_replication": {
+    "pass_max": 0.05,
+    "borderline_max": 0.1
+  },
+  "time_given_coverage": {
+    "supported_max": 0.05,
+    "borderline_max": 0.1,
+    "statistic": "RSS_COV-RSS_TIME_COV"
+  },
+  "practical_ic_tie": 2.0,
+  "frozen_before_results": true
+}

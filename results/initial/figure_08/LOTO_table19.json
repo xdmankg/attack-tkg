@@ -1,0 +1,19 @@
+{
+  "source": "Table 19 of 20260907-2238-ATTACK_TKG_v5.7_EN_\uc601\ubb38\ucd5c\uc885\ubcf8.docx; reported precision",
+  "contrasts": [
+    "R1 \u2212 R0",
+    "R1 \u2212 R2"
+  ],
+  "mean": [
+    -0.3707,
+    -0.0412
+  ],
+  "ci_low": [
+    -0.7698,
+    -0.5155
+  ],
+  "ci_high": [
+    0.0011,
+    0.2645
+  ]
+}

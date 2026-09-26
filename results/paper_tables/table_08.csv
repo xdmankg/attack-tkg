@@ -1,0 +1,10 @@
+Component,Definition,Security interpretation
+New-relation rate,New pairs / changed pairs,New Technique-combination evidence appearing in CTI
+Disappearance rate,Disappearing pairs / changed pairs,Prior-year co-reporting evidence not retained in the next year
+Increase rate,Persistent increasing pairs / changed pairs,Increased strength of existing Technique combinations
+Low-support relation share,Low-support pairs / changed pairs,Share of sparse relation evidence in the transition
+Medium-support relation share,Medium-support pairs / changed pairs,Share of moderately repeated evidence
+RMS low,RMS of changed low pairs,Magnitude of variation in sparse relations
+RMS medium,RMS of changed medium pairs,Magnitude of variation in repeatedly observed relations
+RMS high,RMS of changed high pairs,Magnitude of variation in strongly repeated relations
+Persistent-relation RMS,RMS of changed pairs present in both years,Strength changes within persistent relations

@@ -1,0 +1,4 @@
+scenario,comparison,expected_rows,actual_rows,cosine_valid_rows,cosine_median,union_change_valid_rows,positive_state_change_fraction_union_nonzero_median,ratio_summary_method
+S0_FULL,L1_EXTENDED_TO_L2_HIGH,110,110,110,0.9997078989831616,110,0.2260160488819025,median of 110 row-level ratios; not pooled
+S1_DROP_TOP1,L1_EXTENDED_TO_L2_HIGH,110,110,110,0.9997788418285214,110,0.0861082673394846,median of 110 row-level ratios; not pooled
+S2_DROP_TOP5,L1_EXTENDED_TO_L2_HIGH,110,110,110,0.9998810278267488,110,0.1450557937208422,median of 110 row-level ratios; not pooled

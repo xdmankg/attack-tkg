@@ -1,0 +1,23 @@
+{
+  "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "pyarrow": "16.1.0",
+  "scipy": "1.13.1",
+  "construction_seed": 20260815,
+  "monte_carlo_sensitivity_seed": 2026081503,
+  "e03_temporal_validation_seed": 2026081504,
+  "wild_bootstrap_seed": 2026081505,
+  "loto_bootstrap_seed": 2026081503,
+  "construction_draws": 400,
+  "sensitivity_draws": 200,
+  "temporal_draws": 200,
+  "wild_bootstrap_replicates": 10000,
+  "burn_in": "max(100,10*n_documents)",
+  "thinning": "max(10,2*n_documents)",
+  "float_tolerance": 1e-10,
+  "start_timestamp": "2026-08-15T23:53:30+09:00",
+  "end_timestamp": "2026-08-15T23:55:35+09:00",
+  "runtime_seconds": 125.086
+}

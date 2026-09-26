@@ -1,0 +1,11 @@
+{
+  "T12_observed": -1.8094631700427186,
+  "T12_null_min": -9.184512682431887,
+  "T12_null_median": 63.372265424122375,
+  "T12_null_max": 445.83030793461967,
+  "count_null_le_observed": 1,
+  "B": 200,
+  "p_T12": 0.009950248756218905,
+  "TEMPORAL_RELATIONAL_SPECIFICITY_DIAGNOSTIC": "SUPPORTED",
+  "graph_specific_drift_confirmed": false
+}

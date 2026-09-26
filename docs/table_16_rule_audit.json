@@ -1,0 +1,57 @@
+{
+  "checked_date": "2026-09-26",
+  "question": "Historical positive-year counting rule for Table 16",
+  "status": "not_established",
+  "reviewed_sources": [
+    {
+      "source_name": "run_15e02_01.py",
+      "analysis_stage": "15E02-01",
+      "source_sha256": "814372736b27c27b54152c1dc1c5c53c73ce5eee0374c8d1e045acb68ed1c606",
+      "function": "contributors",
+      "first_line": 661,
+      "last_line": 669,
+      "function_sha256": "c35fd15829d04c327f7f4f1c23c6433951d12f57df5054a4c96a71a96a840d24",
+      "finding": "Ranks up to 100 pairs per transition by squared change; does not count cross-year persistence for Table 16."
+    },
+    {
+      "source_name": "run_15e03_01.py",
+      "analysis_stage": "15E03-01",
+      "source_sha256": "83f87cf9464eadb40fe11c62d6d0f3d391647a69ff16f8454f1a561e4614e852",
+      "function": "contributors",
+      "first_line": 662,
+      "last_line": 670,
+      "function_sha256": "c35fd15829d04c327f7f4f1c23c6433951d12f57df5054a4c96a71a96a840d24",
+      "finding": "Ranks up to 100 pairs per transition by squared change; does not count cross-year persistence for Table 16."
+    },
+    {
+      "source_name": "run_16e01_01_kr_en_evidence.py",
+      "analysis_stage": "16E01-01",
+      "source_sha256": "44aec61bab74c76ce5e24766a93e951acca71691ae541168901321dbdd3d8561",
+      "finding": "Paper asset assembly; no Table 16 cross-year candidate generator or positive-year threshold established."
+    }
+  ],
+  "retained_array": {
+    "path": "results/initial/e02/annual_rcd1_residual_long.parquet",
+    "sha256": "c66a2f1a273612922c43a20d9bdad7410cb52e3fb14f0e26fe3d6ef99ec8172d"
+  },
+  "numerical_comparison_script": "scripts/check_table16.py",
+  "comparison_cutoff": 1e-12,
+  "cutoff_is_verified_historical_rule": false,
+  "findings": [
+    "Four of six manuscript counts differ from strict floating-point positivity.",
+    "All six reported counts match the adopted 1e-12 reporting cutoff.",
+    "Cumulative and peak values match at displayed precision; top-six pair order is unchanged.",
+    "No original arrays, graph construction or inference algorithms changed."
+  ],
+  "reporting_rule_update_date": "2026-09-27",
+  "adopted_reporting_rule": {
+    "expression": "Positive Excess > 1e-12",
+    "threshold": 1e-12,
+    "operator": ">",
+    "scope": "Table 16 positive-year counts only",
+    "purpose": "Exclude floating-point residuals; not a significance criterion",
+    "manuscript_heading": "Years with Positive Excess > 10⁻¹²",
+    "note_file": "docs/table_notes.md",
+    "historical_use_established": false
+  }
+}

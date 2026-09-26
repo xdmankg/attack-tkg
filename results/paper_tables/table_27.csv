@@ -1,0 +1,10 @@
+Category,Interpretation to avoid,Currently established scope,Checks needed for stronger claims
+Relations / measurement,Co-reporting as execution; acceptance rate as accuracy,Adopted direct evidence under fixed rules at the document level,Incident-specific source linkage; gold-standard precision/recall
+Document exclusion,TRR-exclusion changes are exceptional relative to general document removal,Candidate-set changes under selected exclusions,Equal-size random/matched exclusion controls
+Set comparison,Unequal sets imply non-overlap,L2 B0 S0/S2 share R2,Intersection checked; other conditions require separate aggregation
+Numerical estimation,Replicate set agreement implies convergence,"L2 sets agree, but T12 changes across intensities",Higher-intensity estimates and Monte Carlo errors
+Relation boundary,Weight similarity guarantees stable membership,High similarity coexists with positive-relation changes,Track near-zero relations; threshold/descriptor sensitivity
+Statistics / prediction,Criterion failure implies absence/equivalence; S1 superiority generalizes,"Decisions vary by multiplier, block, and scenario","Small-sample test properties; variation from repeated extraction, null estimation, and model selection"
+Initial tests,Initial p-values apply to intensified T12,Two independent B=200 lower-tail tests; not pooled,Retest intensified observations with corresponding null arrays
+Candidates / use,Recurrent candidates are significant attack relations or validated rules,Post hoc candidates; operational performance unassessed,Pairwise FDR and condition stability; source/log/rule verification
+Generalization,Two collections represent all CTI and current threats,Condition-specific public-CTI results for 2002–2023,"External validation across sources, periods, languages, and industries"

@@ -1,0 +1,10 @@
+{
+  "archived_V03_function_vs_saved_array": "PASS: all 10000 values exactly equal",
+  "baseline_subset_vs_original_file": "PASS: raw descriptors and coverage exactly equal",
+  "observed_delta_RSS": 15.547926633440483,
+  "upper_tail_count": 1398,
+  "plus_one_raw_p": 0.13988601139886012,
+  "q95": 17.984492446201724,
+  "quantile_method": "numpy.quantile(method=linear)",
+  "array_sha256_float64": "f6153135654d9a0e17db725294142979501cfc47b2cc4afd985f4c1177547ef4"
+}

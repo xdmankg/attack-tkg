@@ -1,0 +1,3 @@
+Comparison,|ΔIC|,IC result,Mean squared-error difference,95% CI,LOTO result
+R1 vs R0,23.82,R1 favored,−0.3707,"[−0.7698, 0.0011]",No clear advantage
+R1 vs R2,1.81,Practical tie,−0.0412,"[−0.5155, 0.2645]",No clear advantage

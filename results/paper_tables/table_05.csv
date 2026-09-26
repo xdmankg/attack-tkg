@@ -1,0 +1,8 @@
+Precision,Count,Meaning
+Day,"2,900",Specific date stated
+Month,"3,822",Specific year and month stated
+Year,"7,014",Specific year stated
+Day interval,18,Bounded date interval
+Month interval,88,Bounded month interval
+Year interval,410,Bounded year interval
+Total,"14,252",Normalized event-time mentions

@@ -1,0 +1,6 @@
+Sensitivity axis,Analysis condition,Element varied,Evaluation purpose
+TRR inclusion scope,Full-Corpus Scenario(S0) / Top-1% TRR-Excluded Scenario(S1) / Top-5% TRR-Excluded Scenario(S2),Inclusion of documents with large pair potential,Candidate-set changes after excluding a few Technique-rich documents
+Collection,APTnotes / Campaign–CyberCriminal,Data composition by collection,Influence of reporting composition across collections
+Graph observation scope,Reference Scope(B0) / Common-Technique Density-Matched Scope(B2); B2 q×1.00/0.75/0.50,Common-Technique scope and relation density,Sensitivity under joint restrictions on Technique appearance/disappearance and density
+Analysis start year,Start in 2002 / 2004 / 2005,Inclusion of early years with limited observations,Dependence of temporal form on the analysis period
+CP-null sampling intensity,Prespecified setting / expanded Monte Carlo re-estimation,"Chains, samples, swaps, and seeds",Stability of conclusions under numerical estimation intensity

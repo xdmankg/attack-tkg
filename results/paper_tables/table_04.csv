@@ -1,0 +1,6 @@
+Temporal evidence category,Count,Treatment in annual graphs
+Normalized event-time mentions,"14,252",Used for primary event-time weights
+Partial temporal constraints,706,Retained as auxiliary temporal information
+Unresolved temporal mentions,"8,139",Excluded from absolute-time assignment; source evidence retained
+Non-event temporal roles,"35,673","Separated into publication, reference, identifier, historical, and future roles"
+All temporal candidates,"58,770",All candidate temporal expressions

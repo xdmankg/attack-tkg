@@ -1,0 +1,12 @@
+Evidence type,Count,Unit,Rule
+All candidate TTP mentions,"122,432",Candidate mention,All candidates reviewed for direct mapping
+Documents containing candidates,"1,790",Document,At least one candidate TTP mention
+Explicit ATT&CK ID,"2,428",Evidence mention,Use the explicitly stated ATT&CK ID
+Official-name match,"6,900",Evidence mention,Match official Technique / Sub-technique name
+Normalized name,122,Evidence mention,Unique Technique after spelling normalization
+Strict unique behavioral expression,100,Evidence mention,Use only uniquely corresponding behavioral expressions
+Total direct evidence,"9,550 (7.8%)",Adopted direct-evidence mention,Direct acceptance under fixed conservative rules
+Documents with direct mappings,"1,075 (60.1%)",Document,At least one direct mapping supported by adopted evidence
+Document–Technique pairs,"5,258",Document–Technique pair,"Within-document duplicate mentions merged in 1,075 mapping-positive documents"
+Unresolved behavioral evidence,"80,458",Unresolved evidence row,Preserve expressions without a safe direct mapping
+Quarantined conflicting evidence,80,Conflicting document–Technique pair,Separate conflicting evidence from relation inputs

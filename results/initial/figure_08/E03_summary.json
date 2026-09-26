@@ -1,0 +1,12 @@
+{
+  "E03_temporal_validation_seed": 2026081504,
+  "pseudo_sequences": 200,
+  "T12_obs_replay": -1.8094631700427186,
+  "T12_null_median": 62.40889567763617,
+  "p_T12_E03": 0.004975124378109453,
+  "T12_INDEPENDENT_REPLICATION": "PASS",
+  "null_R0_selection_rate": 0.0,
+  "null_R1_selection_rate": 0.0,
+  "null_R2_selection_rate": 1.0,
+  "E02_sequences_reused": false
+}

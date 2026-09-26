@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pyarrow": "25.0.1",
+    "pillow": "12.3.0"
+  },
+  "role": "Environment used to verify this public package."
+}

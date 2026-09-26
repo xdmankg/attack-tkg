@@ -1,0 +1,10 @@
+{
+  "method_id": "R0",
+  "rss": 289.93463313051774,
+  "ic": 128.05042576398375,
+  "parameter_count": 9,
+  "boundaries": [],
+  "model_definition": "FROZEN_STAGE13",
+  "selected_by_minimum_ic": false,
+  "practical_tie_threshold": 2.0
+}

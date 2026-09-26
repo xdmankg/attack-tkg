@@ -1,0 +1,10 @@
+Descriptor,Spearman,R1 trajectory cosine,Observed slope,Adjusted slope,Direction
+New-relation rate,0.919,0.990,−1.027,−0.892,Retained
+Disappearance rate,0.631,1.000,−0.489,−0.168,Retained
+Increase rate,0.851,0.981,+2.053,+1.598,Retained
+Low-support relation share,0.951,0.973,−0.750,−0.928,Retained
+Medium-support relation share,0.917,0.985,+0.668,+0.880,Retained
+RMS low,0.473,0.911,−1.074,−0.610,Retained
+RMS medium,0.468,0.591,−0.465,−0.426,Retained
+RMS high,0.387,0.942,+1.635,+2.467,Retained
+Persistent-relation RMS,0.348,−0.967,+0.527,−0.375,Reversed

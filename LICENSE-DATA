@@ -1,0 +1,20 @@
+Copyright (c) 2026 HyoungJu Kim and Junho Choi
+
+The authors' derived datasets, numerical results, original figures and research
+documentation are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0), to the extent that the authors hold the rights.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Full legal text: LICENSES/CC-BY-4.0.txt
+
+Attribute HyoungJu Kim and Junho Choi and this research package, identify the
+version used, retain the license notice, and indicate modifications.
+
+This license applies to data/, results/, figures/ and research documentation in
+docs/. Author-written software, executable settings and software-use instructions
+are covered by the MIT License in LICENSE. The two licenses apply to different
+materials; they are not alternative licenses for every file.
+
+Third-party CTI reports, report text, upstream repository materials and MITRE
+ATT&CK content are not relicensed. Third-party rights in titles, identifiers and
+other source metadata remain with their respective holders. See docs/rights.md.

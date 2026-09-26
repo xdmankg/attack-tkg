@@ -1,0 +1,2 @@
+Comparison,Observed statistic,Bootstrap,p,Conclusion
+Time | Analytical Coverage,ΔRSS = 15.548,"Transition-level multivariate wild bootstrap; B=10,000",0.1399,Additional linear time term does not meet the improvement criterion
