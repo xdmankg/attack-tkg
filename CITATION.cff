@@ -10,6 +10,7 @@ authors:
   - family-names: Choi
     given-names: Junho
 version: "1.0.1"
+doi: "10.5281/zenodo.22989542"
 repository-code: "https://github.com/xdmankg/attack-tkg"
 url: "https://github.com/xdmankg/attack-tkg"
 license: MIT

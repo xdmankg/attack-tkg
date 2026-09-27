@@ -1,5 +1,7 @@
 # ATT&CK-TKG
 
+[![DOI](https://zenodo.org/badge/1389850026.svg)](https://doi.org/10.5281/zenodo.22989541)
+
 Data and code accompanying *Temporal Knowledge Graph–Based Longitudinal Analysis
 of ATT&CK Technique Relations in Public CTI and the Condition Dependence of
 Temporal-Model Comparison Results*, by HyoungJu Kim and Junho Choi.
@@ -98,10 +100,13 @@ See [analysis history](docs/analysis_history.md).
 
 Repository: https://github.com/xdmankg/attack-tkg.
 
-Author metadata is in `CITATION.cff`. Journal and archive DOIs have not been
-assigned in this package. [Release instructions](docs/release.md) describe
-versioned publication and archiving. The repository URL alone does not identify
-an archived release.
+Archived release (v1.0.1): https://doi.org/10.5281/zenodo.22989542.
+
+All versions: https://doi.org/10.5281/zenodo.22989541.
+
+Author metadata is in `CITATION.cff`. Cite the version-specific DOI above to
+identify the archived release used in the study. [Release instructions](docs/release.md)
+describe versioned publication and archiving.
 Correspondence: Junho Choi,
 xdman@chosun.ac.kr.
 
