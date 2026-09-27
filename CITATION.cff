@@ -1,5 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite this research package and the accompanying manuscript. See docs/rights.md for the separate code and data license scopes."
+message: >-
+  Please cite this research package and the accompanying manuscript.
+  See docs/rights.md for the separate code and data license scopes.
 type: dataset
 title: "ATT&CK-TKG: data and code for longitudinal analysis of Technique co-reporting"
 authors:
@@ -7,12 +9,15 @@ authors:
     given-names: HyoungJu
   - family-names: Choi
     given-names: Junho
-version: 1.0.0
+version: "1.0.1"
 repository-code: "https://github.com/xdmankg/attack-tkg"
 url: "https://github.com/xdmankg/attack-tkg"
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
+abstract: >-
+  Research data and code for longitudinal analysis of Technique co-reporting.
+  Author-written code is licensed under MIT. Author-owned derived data and
+  research materials are licensed under CC-BY-4.0. See docs/rights.md for
+  license scopes and third-party exclusions.
 keywords:
   - cyber threat intelligence
   - MITRE ATT&CK
